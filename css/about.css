@@ -7,6 +7,7 @@ body, html {
     margin: 0; 
     /* background: url("../images/Veenacover.jpg") no-repeat  fixed;
     background-size: cover;   */
+    /* border:white solid 5px; */
 }
 
 .bg {
@@ -29,7 +30,7 @@ body, html {
 }
 
 .pinkDiv{
-    background-color: rgba(228, 6, 6, 0.404);
+    background-color: rgba(250, 109, 84, 0.849);
    /* height: 1029px;   */
    height:100vh;
    position: absolute;
@@ -41,24 +42,33 @@ body, html {
     text-align: center;
     line-height:7.5vw;    
     padding-top:10vh;
+    color:#01233b;
+   
     font-size: calc(45px + (70 - 45) * (100vw - 400px) / ( 800 - 400 ));
 }
 
 .text{
     padding: 0 8vw;
     font-size: calc(15px + (15 - 15) * (100vw - 400px) / ( 800 - 400 ));
-    
+    color:#040018;
 }
 
 .smallerscreen{
     visibility: hidden;
     display: none;
 }
+
+.image{
+  
+    padding:0 !important;
+  
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-height: 620px) {
     .pinkDiv{
         height:auto;    
         background-color: rgba(250, 109, 84, 0.993);
+    
     }
     .biggerscreen{
         visibility: hidden;
@@ -92,7 +102,7 @@ body, html {
         display: initial;
     }
   .bg{
-      background-color: white;
+      background-color: rgb(0, 0, 0);
       background-image: none;
 
   }
