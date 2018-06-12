@@ -5,8 +5,8 @@
 body, html {   
     height: 100%;
     margin: 0; 
-    background: url("../images/Veenacover.jpg") no-repeat  fixed;
-    background-size: cover;  
+    /* background: url("../images/Veenacover.jpg") no-repeat  fixed;
+    background-size: cover;   */
 }
 
 /* .bg { */
@@ -30,7 +30,7 @@ body, html {
 
 .pinkDiv{
     background-color: rgba(228, 6, 6, 0.404);
-    height: 100vh;   
+   height: 1029px;  
 }
 
 .title{
